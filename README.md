@@ -60,8 +60,8 @@ AI and Materials Science (AIMS) Laboratory
 
 - Christina Bayard
 - Merve Fedai
-- Sabila Pinky
 - Deepak Sai Pendyala
+- Sabila Pinky
 - Prof. Yaroslava Yingling
 
 ---

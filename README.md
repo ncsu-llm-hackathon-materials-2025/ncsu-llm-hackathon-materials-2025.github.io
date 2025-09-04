@@ -101,7 +101,7 @@ Hybrid participation is available for remote teams.
 
 👉 **Step 2:** [Register for the Global Event](https://luma.com/hspoki8y)
 
-👉 **Step 3:** [Join the group Slack](https://luma.com/hspoki8y) 
+👉 **Step 3:** Join the group Slack (link provided via email after registering in Step 2) 
 
 ---
 

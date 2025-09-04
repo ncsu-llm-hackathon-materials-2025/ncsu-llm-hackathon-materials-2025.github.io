@@ -16,7 +16,7 @@
 
 ## Overview
 
-NC State is a participating site for the [global LLM Hackathon](https://llmhackathon.github.io/) →  a **48-hour build sprint** to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in **materials science and chemistry**. [Register now!](https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform)
+NC State is a participating site for the [global LLM Hackathon](https://llmhackathon.github.io/) →  a **48-hour build sprint** to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in **materials science and chemistry**. [Register now](https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform)!
 - **Team size:** 3-7  
 - **Prizes:** Awards for top teams  
 - **Mentors:** Industry & faculty  

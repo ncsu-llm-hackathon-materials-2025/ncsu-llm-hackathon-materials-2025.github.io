@@ -91,7 +91,7 @@ Winners announced, featured projects invited to virtual showcase
 
 ➡️ [View on Google Maps](https://www.google.com/maps/place/Plant+Sciences+Building,+NC+State+University/data=!4m2!3m1!1s0x0:0x4dad2d5a208a0dd8?sa=X&ved=1t:2428&ictx=111)
 
-Hybrid participation is available for remote teams.
+Hybrid participation is available for remote participants.
 
 ---
 

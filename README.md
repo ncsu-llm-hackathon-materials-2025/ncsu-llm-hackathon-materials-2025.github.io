@@ -41,6 +41,24 @@ A **48-hour build sprint** to prototype research and teaching tools powered by l
 - **Presentation:** clarity, demo quality, documentation  
 
 ---
+
+## Hackathon Schedule
+**10:00 AM (ET), Sept 11**  
+*Hackathon Kick-off*  
+Kick-off (virtual video – link coming soon) and opening teaming event  
+
+**11:00 AM (ET), Sept 11**  
+*Hacking Begins*  
+Mentorship sessions available  
+
+**6:00 PM (ET), Sept 12**  
+*Final Submissions*  
+Project submission deadline  
+
+**~Sept 15 (time ASAP, ET)**  
+*Post-Event Showcase*  
+Winners announced, featured projects invited to virtual showcase 
+
 ---
 
 ## Location

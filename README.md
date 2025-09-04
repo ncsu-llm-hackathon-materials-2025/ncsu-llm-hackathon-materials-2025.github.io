@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Date-Oct%2025–27%2C%202025-red" alt="Dates"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Date-Sept%2011–12%2C%202025-red" alt="Dates"></a>
   <a href="#"><img src="https://img.shields.io/badge/Location-NC%20State%20EB3%2C%20Raleigh%2C%20NC-blue" alt="Location"></a>
   <a href="#"><img src="https://img.shields.io/badge/Format-Hybrid%20(Onsite%20%2B%20Online)-orange" alt="Format"></a>
   <a href="#"><img src="https://img.shields.io/badge/Cost-Free-brightgreen" alt="Cost"></a>
@@ -21,7 +21,7 @@ A **48-hour build sprint** to prototype research and teaching tools powered by l
 - **Prizes:** Awards for top teams  
 - **Mentors:** Industry & faculty  
 - **Workshops:** Beginner-friendly  
-- **Meals provided** for on-site participants  
+- **Snacks provided** for on-site participants  
 
 ---
 

@@ -1,5 +1,5 @@
 
-<h1 align="center"> LLM Hackathon — Materials Science & Chemistry @ NC State</h1>
+<h1 align="center"> LLM Hackathon for Applications in Materials Science & Chemistry @ NC State</h1>
 
 <p align="center">
   <img src="ncsu-mark.png.png" width="80%" alt="Hackathon banner"/>
@@ -16,14 +16,24 @@
 
 ## Overview
 
-NC State is a participating site for the [global LLM Hackathon](https://llmhackathon.github.io/) →  a **48-hour build sprint** to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in **materials science and chemistry**. [Register now](https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform)!
-- **Team size:** 3-7  
+NC State is hosting an [on-site hub](https://ncsu-llm-hackathon-materials-2025.github.io/ncsu-llm-hackathon-materials.github.io/) for the 3rd hybrid [international LLM Hackathon](https://llmhackathon.github.io/) for Applications in Materials and Chemistry, happening September 11–12, 2025.
+This is a **2-day build sprint** to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in **materials science and chemistry**. [Register now](https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform)!
+- **Team size:** 3-7 (you can sign up with a group or by yourself and be assigned to a group)
 - **Prizes:** Awards for top teams  
 - **Mentors:** Industry & faculty  
 - **Workshops:** Beginner-friendly  
-- **Snacks provided** for on-site participants  
+- **Lunch and snacks provided** for on-site participants  
 
 ---
+
+## Local Sponsors
+
+NC State College of Engineering (add links)
+AI and Data Science Academy
+ed
+
+---
+
 
 ## Tracks & Ideas
 - LLM copilots for **materials databases** and ELNs  

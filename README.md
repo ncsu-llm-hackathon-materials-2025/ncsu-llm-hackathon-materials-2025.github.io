@@ -88,4 +88,5 @@ No. We’ll run beginner-friendly workshops and provide mentors.
 Yes, there’s no registration fee. Snacks provided for on-site attendees.
 </details>
 
-
+## Questions?
+Contact: groupyingling@gmail.com

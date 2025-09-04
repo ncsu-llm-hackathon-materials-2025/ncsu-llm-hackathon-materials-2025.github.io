@@ -1,5 +1,5 @@
 
-<h1 align="center">🧪 LLM Hackathon — Materials Science & Chemistry @ NC State</h1>
+<h1 align="center"> LLM Hackathon — Materials Science & Chemistry @ NC State</h1>
 
 <p align="center">
   <img src="ncsu-mark.png.png" width="80%" alt="Hackathon banner"/>
@@ -15,21 +15,22 @@
 ---
 
 ## Overview
-A **48-hour build sprint** to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in **materials science and chemistry**.  
 
-👥 Team size: **2–5**  
-🏆 Prizes for top teams  
-🎓 Mentors: industry & faculty  
-🍕 Meals provided for on-site participants  
+A **48-hour build sprint** to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in **materials science and chemistry**. Register now!  
+- **Team size:** 3-7  
+- **Prizes:** Awards for top teams  
+- **Mentors:** Industry & faculty  
+- **Workshops:** Beginner-friendly  
+- **Meals provided** for on-site participants  
 
 ---
 
 ## Tracks & Ideas
-- 🤖 LLM copilots for **materials databases** and ELNs  
-- 🔬 Workflow agents for **MD/DFT** setup, execution, and analysis  
-- 🧵 Design tools for **polymers, soft & biomaterials**  
-- 📚 Education & outreach: interactive labs, grading aides  
-- 🌍 Open science: dataset curation, metadata extraction  
+- LLM copilots for **materials databases** and ELNs  
+- Workflow agents for **MD/DFT** setup, execution, and analysis  
+- Design tools for **polymers, soft & biomaterials**  
+- Education & outreach: interactive labs, grading aides  
+- Open science: dataset curation, metadata extraction  
 
 ---
 
@@ -40,11 +41,6 @@ A **48-hour build sprint** to prototype research and teaching tools powered by l
 - **Presentation:** clarity, demo quality, documentation  
 
 ---
-
-## Speakers & Mentors
-TBA.  
-📩 Interested in mentoring? Email [hackathon@example.edu](mailto:hackathon@example.edu).
-
 ---
 
 ## Location
@@ -71,8 +67,7 @@ No. We’ll run beginner-friendly workshops and provide mentors.
 
 <details>
 <summary>💸 Is it free?</summary>
-Yes, there’s no registration fee. Meals provided for on-site attendees.
+Yes, there’s no registration fee. Snacks provided for on-site attendees.
 </details>
 
-<d
 

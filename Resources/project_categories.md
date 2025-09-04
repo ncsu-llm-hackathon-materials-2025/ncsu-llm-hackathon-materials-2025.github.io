@@ -22,3 +22,4 @@
 - Domain-specific LLM applications
 - Integration with existing scientific software
 - User-friendly interfaces for researchers
+

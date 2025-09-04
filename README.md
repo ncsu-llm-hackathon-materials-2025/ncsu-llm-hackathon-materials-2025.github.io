@@ -119,7 +119,7 @@ Yes, there’s no registration fee. Snacks provided for on-site attendees.
 </details>
 
 <details>
-<summary>💸 Who can participate?</summary>
+<summary>𐦂𖨆𐀪𖠋 Who can participate?</summary>
 Students, researchers, and postdocs from all backgrounds are welcome.
 </details>
 

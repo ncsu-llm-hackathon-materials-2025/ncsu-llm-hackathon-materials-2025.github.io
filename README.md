@@ -26,11 +26,12 @@ This is a **2-day build sprint** to prototype research and teaching tools powere
 
 ---
 
-## Local Sponsors
+## We thank
 
-NC State College of Engineering (add links)
+NC State College of Engineering
 AI and Data Science Academy
-ed
+Plant Sciences Initiative
+AIMS Laboratory
 
 ---
 
@@ -52,8 +53,13 @@ ed
 
 ---
 
+## NC State Site Organizing Committee
+- 
+
+---
+
 ## Hackathon Schedule
-**10:00 AM (EST), Sept 11**  
+**9:45 AM (EST), Sept 11**  
 *Hackathon Kick-off*  
 Kick-off (virtual video – link coming soon) and opening teaming event  
 
@@ -61,7 +67,7 @@ Kick-off (virtual video – link coming soon) and opening teaming event
 *Hacking Begins*  
 Mentorship sessions available  
 
-**6:00 PM (EST), Sept 12**  
+**7:00 PM (EST), Sept 12**  
 *Final Submissions*  
 Project submission deadline  
 
@@ -73,16 +79,21 @@ Winners announced, featured projects invited to virtual showcase
 
 ## Location
 **NC State — Centennial Campus**  
-📍 Exact location TBD 
+📍 Plant Sciences Building, 840
 
 [➡️ View on Google Maps](https://www.google.com/maps?q=NC+State+Engineering+Building+III)  
 
-Hybrid participation available for remote teams.
+Hybrid participation is available for remote teams.
 
 ---
 
 ## Register
-👉 [**Register here via Google Form**](https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform)  
+
+👉 **Step 1:** [RSVP for the NC State University Site](https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform) 
+
+👉 **Step 2:** [Register for the Global Event](https://luma.com/hspoki8y)
+
+👉 **Step 3:** [Join the group Slack](https://luma.com/hspoki8y) 
 
 ---
 

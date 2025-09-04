@@ -28,9 +28,13 @@ This is a **2-day build sprint** to prototype research and teaching tools powere
 
 ## We thank
 
+
 NC State College of Engineering
+
 AI and Data Science Academy
+
 Plant Sciences Initiative
+
 AIMS Laboratory
 
 ---
@@ -54,7 +58,12 @@ AIMS Laboratory
 ---
 
 ## NC State Site Organizing Committee
-- 
+
+- Christina Bayard
+- Merve Fedai
+- Sabila Pinky
+- Deepak Sai Pendyala
+- Prof. Yaroslava Yingling
 
 ---
 

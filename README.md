@@ -30,11 +30,11 @@ This is a **2-day build sprint** to prototype research and teaching tools powere
 
 NC State College of Engineering
 
-AI and Data Science Academy
+NC State Data Science and AI Academy
 
 Plant Sciences Initiative
 
-AI and Materials Science (AIMS) Laboratory
+AI and Materials Simulations (AIMS) Laboratory
 
 ---
 

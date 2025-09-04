@@ -5,3 +5,4 @@ During the event, participants will have access to:
 - Documentation and tutorials for LLM APIs
 - Expert mentorship and technical support
 - Collaboration tools and communication channels
+

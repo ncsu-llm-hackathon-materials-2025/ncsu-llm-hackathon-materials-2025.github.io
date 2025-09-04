@@ -62,8 +62,8 @@ Winners announced, featured projects invited to virtual showcase
 ---
 
 ## Location
-**NC State — Engineering Building III (EB3)**  
-📍 911 Partners Way, Raleigh, NC 27606  
+**NC State — Centennial Campus**  
+📍 Exact location TBD 
 
 [➡️ View on Google Maps](https://www.google.com/maps?q=NC+State+Engineering+Building+III)  
 

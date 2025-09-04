@@ -1,4 +1,3 @@
-
 <h1 align="center"> LLM Hackathon for Applications in Materials Science & Chemistry @ NC State</h1>
 
 <p align="center">
@@ -35,7 +34,7 @@ AI and Data Science Academy
 
 Plant Sciences Initiative
 
-AIMS Laboratory
+AI and Materials Science (AIMS) Laboratory
 
 ---
 
@@ -88,9 +87,9 @@ Winners announced, featured projects invited to virtual showcase
 
 ## Location
 **NC State — Centennial Campus**  
-📍 Plant Sciences Building, 840
+📍 Plant Sciences Building, Room 3-3152-Conference Room (12)
 
-[➡️ View on Google Maps](https://www.google.com/maps?q=NC+State+Engineering+Building+III)  
+[➡️ View on Google Maps](https://www.google.com/maps/place/Plant+Sciences+Building,+NC+State+University/data=!4m2!3m1!1s0x0:0x4dad2d5a208a0dd8?sa=X&ved=1t:2428&ictx=111))  
 
 Hybrid participation is available for remote teams.
 
@@ -119,7 +118,7 @@ Yes, there’s no registration fee. Snacks provided for on-site attendees.
 </details>
 
 <details>
-<summary>𐦂𖨆𐀪𖠋 Who can participate?</summary>
+<summary>🙋‍♀️ Who can participate?</summary>
 Students, researchers, and postdocs from all backgrounds are welcome.
 </details>
 

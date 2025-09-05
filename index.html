@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LLM Hackathon for Applications in Materials Science & Chemistry @ NC State</title>
+  <meta name="description" content="NC State on-site hub for the international LLM Hackathon in Materials Science & Chemistry. Sept 11-12, 2025. Hybrid format. Free registration."/>
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Social cards -->
+  <meta property="og:title" content="LLM Hackathon - Materials Science & Chemistry @ NC State"/>
+  <meta property="og:description" content="2-day build sprint with mentoring, workshops, and prizes. Sept 11-12, 2025."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="/banner.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <!-- Bootstrap theme -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/flatly/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    :root{
+      --brand:#cc0000; /* NC State red */
+      --brand-dark:#a40000;
+      --ink:#111;
+      --muted:#6b7280; /* gray-500 */
+      --bg:#f6f7f8; /* light gray background */
+      --card:#fff;
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;color:var(--ink);background:var(--bg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,"Noto Sans",sans-serif}
+    a{color:var(--brand)}
+
+    /* Global spacing adjustments */
+    section{padding:28px 0}
+    @media (min-width: 992px){ section{padding:36px 0} }
+
+    /* Anchor offset for sticky nav */
+    section[id]{ scroll-margin-top: 90px; }
+
+    /* Hero */
+    .hero{background:#fff}
+    .eyebrow{color:var(--brand);font-weight:700;text-transform:uppercase;font-size:.8rem;letter-spacing:.08em}
+    h1{font-size:clamp(1.5rem, 4.5vw, 2.1rem);line-height:1.15;margin:.35rem 0 0}
+    .meta{margin-top:10px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;font-size:.95rem}
+    .chip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid #e5e7eb;border-radius:999px;background:#fafafa;color:#000}
+    .cover{overflow:hidden;border-radius:var(--radius);border:1px solid #e5e7eb}
+    .cover img{width:100%;display:block}
+
+    /* Sidebar card (Register) */
+    .card{background:var(--card);border:1px solid #e5e7eb;border-radius:var(--radius);box-shadow:0 1px 2px rgba(0,0,0,.03)}
+    .sticky{position:sticky;top:88px}
+    .card .pad{padding:18px}
+    .price{font-size:1.6rem;font-weight:800}
+    @media (max-width: 991.98px){ .sticky{position:static} }
+
+    /* KPIs */
+    .kpis{display:grid;grid-template-columns:repeat(2, 1fr);gap:10px}
+    .kpi{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+    .kpi b{font-size:1.1rem;margin-bottom:4px;display:block}
+    .kpi:nth-child(5){grid-column:1;max-width:50%}
+    @media (max-width: 768px){ .kpis{grid-template-columns:1fr} .kpi:nth-child(5){max-width:100%} }
+
+    /* Timeline */
+    .timeline{display:grid;gap:10px}
+    .slot{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px;display:grid;grid-template-columns:160px 1fr;gap:12px}
+    .time{color:var(--muted);font-weight:600}
+    @media (max-width: 768px){ .slot{grid-template-columns:1fr} }
+
+    /* FAQ */
+    details{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px}
+    details+details{margin-top:10px}
+    summary{cursor:pointer;font-weight:700}
+
+    /* Footer */
+    footer{border-top:1px solid #e5e7eb;color:#6b7280;padding:20px 0;background:#fff}
+
+    /* Map & iframe sizing */
+    .map-embed{height:360px}
+    .form-embed{height:970px}
+    @media (max-width: 768px){ .map-embed{height:300px} .form-embed{height:820px} }
+    @media (max-width: 420px){ .map-embed{height:260px} .form-embed{height:720px} }
+
+    /* Mobile bottom CTA */
+    .mobile-cta{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #e5e7eb;padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:1030;display:none}
+    .mobile-cta .btn{width:100%}
+    @media (max-width: 768px){ body{padding-bottom:84px} .mobile-cta{display:block} }
+
+    /* Dark theme */
+    @media (prefers-color-scheme: dark){
+      :root{ --ink:#f3f4f6; --muted:#9ca3af; --bg:#111827; --card:#1f2937; }
+      body{background:var(--bg);color:var(--ink);}
+      .hero,.card,.slot,details,footer,.kpi{background:var(--card);color:var(--ink);}
+      .kpi, .slot, details, .card, footer{border-color:#374151;}
+      .mobile-cta{background:#111827;border-top-color:#374151}
+    }
+  </style>
+
+  <!-- Schema.org: Event for rich results -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Event",
+    "name":"LLM Hackathon for Applications in Materials Science & Chemistry",
+    "startDate":"2025-09-11T09:45:00-04:00",
+    "endDate":"2025-09-12T19:00:00-04:00",
+    "eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode",
+    "eventStatus":"https://schema.org/EventScheduled",
+    "location":{
+      "@type":"Place",
+      "name":"NC State - Plant Sciences Building, Room 3-3152 (Conference Room 12)",
+      "address":"Raleigh, NC 27695"
+    },
+    "organizer":{
+      "@type":"Organization",
+      "name":"Yingling AIMS Research Group",
+      "url":"https://www.mse.ncsu.edu/"
+    },
+    "image":["/banner.png"],
+    "description":"2-day hackathon focused on LLM applications in materials science and chemistry. Mentors, workshops, and prizes.",
+    "offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock"}
+  }
+  </script>
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top" role="navigation" aria-label="Primary">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#top">
+        <span class="fw-bold">NC State LLM Hackathon</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+          <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-lg-2" href="#register" aria-label="Jump to registration">Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="container py-4">
+      <div class="row gy-4 align-items-start">
+        <!-- Sidebar first on mobile, second on desktop -->
+        <aside class="col-lg-3 order-1 order-lg-2" aria-label="Registration sidebar">
+          <div class="card">
+            <div class="cover"><img src="./ncsu-mark.png.png" alt="Hackathon banner" loading="lazy"></div>
+            <div class="pad">
+              <div class="price">Free</div>
+              <p class="m-0" style="color:white">Registration required • Limited spots</p>
+              <div class="mt-3 d-grid gap-2">
+                <a class="btn btn-primary" href="#register">Register now</a>
+                <a class="btn btn-outline-primary" href="https://luma.com/hspoki8y" target="_blank" rel="noopener" style="color:white;border-color:white">Global event registration</a>
+              </div>
+              <ul class="mt-3 mb-0" style="margin-left:18px;color:white">
+                <li>Beginner-friendly workshops</li>
+                <li>Mentor office hours</li>
+                <li>Meals provided on-site</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+        <div class="col-lg-9 order-2 order-lg-1">
+          <div class="eyebrow">Materials Science • Chemistry • AI/LLMs</div>
+          <h1>LLM Hackathon for Applications in Materials Science &amp; Chemistry @ NC State</h1>
+          <div class="meta" aria-label="Event details">
+            <span class="chip" title="Dates">Sept 11-12, 2025</span>
+            <span class="chip" title="Format">Hybrid (Onsite + Online)</span>
+            <span class="chip" title="Location">NC State - Centennial Campus</span>
+            <span class="chip" title="Cost">Free</span>
+          </div>
+          <p class="mt-1" style="max-width:65ch;color:white">This is a <strong>2-day build sprint</strong> to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in <strong>materials science and chemistry</strong>.</p>
+          <div class="kpis mt-1" aria-label="Participation highlights">
+            <div class="kpi"><b>3-7</b><div style="color:white">Team size</div></div>
+            <div class="kpi"><b>Prizes</b><div style="color:white">Awards for top teams</div></div>
+            <div class="kpi"><b>Mentors</b><div style="color:white">Industry &amp; faculty</div></div>
+            <div class="kpi"><b>Workshops</b><div style="color:white">Beginner-friendly</div></div>
+            <div class="kpi"><b>On‑site</b><div style="color:white">Lunch &amp; snacks provided</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- OVERVIEW (exact content from old page) -->
+  <section id="overview">
+    <div class="container">
+      <h2>Overview</h2>
+      <p>
+        NC State is hosting an <a href="https://ncsu-llm-hackathon-materials-2025.github.io/">on-site hub</a> for the 3rd hybrid <a href="https://llmhackathon.github.io/" target="_blank" rel="noopener">international LLM Hackathon</a> for Applications in Materials and Chemistry, happening September 11-12, 2025.
+        This is a <strong>2-day build sprint</strong> to prototype research and teaching tools powered by large language models for discovery, simulation workflows, data curation, and scientific communication in <strong>materials science and chemistry</strong>.
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform">Register now</a>!
+      </p>
+      <ul>
+        <li><strong>Team size:</strong> 3-7 (you can sign up with a group or by yourself and be assigned to a group)</li>
+        <li><strong>Prizes:</strong> Awards for top teams</li>
+        <li><strong>Mentors:</strong> Industry &amp; faculty</li>
+        <li><strong>Workshops:</strong> Beginner-friendly</li>
+        <li><strong>Lunch and snacks provided</strong> for on-site participants</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- THANKS -->
+  <section>
+    <div class="container">
+      <h2>We thank</h2>
+      <ul>
+        <li>NC State College of Engineering</li>
+        <li>NC State Data Science and AI Academy</li>
+        <li>Plant Sciences Initiative</li>
+        <li>AI and Materials Simulations (AIMS) Laboratory</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TRACKS & JUDGING (from old page) -->
+  <section>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-3 h-100">
+            <h2 class="mt-0">Tracks &amp; Ideas</h2>
+            <ul style="line-height:1.7">
+              <li>LLM copilots for <strong>materials databases</strong> and ELNs</li>
+              <li>Workflow agents for <strong>MD/DFT</strong> setup, execution, and analysis</li>
+              <li>Design tools for <strong>polymers, soft &amp; biomaterials</strong></li>
+              <li>Education &amp; outreach: interactive labs, grading aides</li>
+              <li>Open science: dataset curation, metadata extraction</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3 h-100">
+            <h2 class="mt-0">Judging Criteria</h2>
+            <ul style="line-height:1.7">
+              <li><strong>Impact:</strong> addresses a real research/education need</li>
+              <li><strong>Originality:</strong> novel approach or integration</li>
+              <li><strong>Technical depth:</strong> sound methods &amp; evaluation</li>
+              <li><strong>Presentation:</strong> clarity, demo quality, documentation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMITTEE -->
+  <section>
+    <div class="container">
+      <h2>NC State Site Organizing Committee</h2>
+      <ul>
+        <li><a href="mailto:cvilche@ncsu.edu">Christina Bayard</a></li>
+        <li><a href="mailto:mfedai@ncsu.edu">Merve Fedai</a></li>
+        <li><a href="mailto:dpendya@ncsu.edu">Deepak Sai Pendyala</a></li>
+        <li><a href="mailto:spinky@ncsu.edu">Sabila Pinky</a></li>
+        <li><a href="mailto:ygyingli@ncsu.edu">Prof. Yaroslava Yingling</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SCHEDULE (exact from old, with ET label) -->
+  <section id="schedule">
+    <div class="container">
+      <h2>Hackathon Schedule (Eastern Time)</h2>
+      <div class="timeline mt-2" role="list">
+        <div class="slot" role="listitem"><div class="time">Sept 11, 9:45 AM</div><div><em>Hackathon Kick-off</em> - Virtual link and teaming event</div></div>
+        <div class="slot" role="listitem"><div class="time">Sept 11, 11:00 AM</div><div><em>Hacking Begins</em> - Mentorship sessions available</div></div>
+        <div class="slot" role="listitem"><div class="time">Sept 12, 7:00 PM</div><div><em>Final Submissions</em> - Project submission deadline</div></div>
+        <div class="slot" role="listitem"><div class="time">~Sept 15 (ASAP)</div><div><em>Post-Event Showcase</em> - Winners announced; featured projects invited to virtual showcase</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION (from old) -->
+  <section id="location">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-6">
+          <h2>Location</h2>
+          <p><strong>NC State - Centennial Campus</strong><br/>Plant Sciences Building, Room 3-3152 - Conference Room (12)</p>
+          <p>Hybrid participation is available for remote participants.</p>
+          <p>
+            <a class="btn btn-outline-primary" href="https://www.google.com/maps/place/Plant+Sciences+Building,+NC+State+University/data=!4m2!3m1!1s0x0:0x4dad2d5a208a0dd8?sa=X&ved=1t:2428&ictx=111" target="_blank" rel="noopener" style="color:white">View on Google Maps</a>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="card overflow-hidden h-100" aria-hidden="true">
+            <iframe title="Map to Plant Sciences Building" class="w-100 map-embed" loading="lazy" style="border:0" allowfullscreen
+              src="https://www.google.com/maps?q=Plant+Sciences+Building,+NC+State+University&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGISTER (exact steps & links from old) -->
+  <section id="register">
+    <div class="container">
+      <h2>Register</h2>
+      <ol>
+        <li><strong>Step 1:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform">RSVP for the NC State University Site</a> (form is embedded below)</li>
+        <li><strong>Step 2:</strong> <a href="https://luma.com/hspoki8y">Register for the Global Event</a></li>
+        <li><strong>Step 3:</strong> Join the group Slack (link provided via email after registering in Step 2)</li>
+      </ol>
+      <p><strong>Note:</strong> If you have trouble accessing the embedded form below, please click the link in Step 1 to open it in a new tab.</p>
+      <div class="card mt-3" style="padding:0;overflow:hidden">
+        <iframe title="NC State RSVP Form" src="https://docs.google.com/forms/d/e/1FAIpQLSdhADJ6hzT-uZguO0JITpIpb1NrM0HYbh_ROxykZ5wkBdgzWg/viewform?embedded=true"
+          class="form-embed w-100" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ (from old, emoji removed for accessibility/consistency) -->
+  <section>
+    <div class="container">
+      <h2>FAQ</h2>
+      <details open>
+        <summary>Do I need prior experience?</summary>
+        <p>No. We’ll run beginner-friendly workshops and provide mentors.</p>
+      </details>
+      <details>
+        <summary>Is it free?</summary>
+        <p>Yes, there’s no registration fee. Snacks provided for on-site attendees.</p>
+      </details>
+      <details>
+        <summary>Who can participate?</summary>
+        <p>Students, researchers, and postdocs from all backgrounds are welcome.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container d-flex justify-content-between flex-wrap gap-2">
+      <div>© 2025 NC State University - Yingling AIMS Research Group</div>
+      <div>Questions? <a href="mailto:groupyingling@gmail.com">groupyingling@gmail.com</a></div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <div class="mobile-cta" aria-hidden="false" aria-label="Quick register">
+    <a class="btn btn-primary btn-lg" href="#register">Register for NC State Site</a>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -87,14 +87,17 @@
     .mobile-cta .btn{width:100%}
     @media (max-width: 768px){ body{padding-bottom:84px} .mobile-cta{display:block} }
 
-    /* Dark theme */
-    @media (prefers-color-scheme: dark){
-      :root{ --ink:#f3f4f6; --muted:#9ca3af; --bg:#111827; --card:#1f2937; }
-      body{background:var(--bg);color:var(--ink);}
-      .hero,.card,.slot,details,footer,.kpi{background:var(--card);color:var(--ink);}
-      .kpi, .slot, details, .card, footer{border-color:#374151;}
-      .mobile-cta{background:#111827;border-top-color:#374151}
-    }
+    /* Force dark theme - always active */
+    :root{ --ink:#f3f4f6; --muted:#9ca3af; --bg:#111827; --card:#1f2937; }
+    body{background:var(--bg);color:var(--ink);}
+    .hero,.card,.slot,details,footer,.kpi{background:var(--card);color:var(--ink);}
+    .kpi, .slot, details, .card, footer{border-color:#374151;}
+    .mobile-cta{background:#111827;border-top-color:#374151}
+    
+    /* Dark mode specific white text overrides */
+    .hero p[style*="color:white"], .hero div[style*="color:white"], .hero ul[style*="color:white"]{color:white !important}
+    .hero .kpi div[style*="color:white"]{color:white !important}
+    .btn[style*="color:white"]{color:white !important}
   </style>
 
   <!-- Schema.org: Event for rich results -->
